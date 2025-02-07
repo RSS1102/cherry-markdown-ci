@@ -4,4 +4,4 @@
 'cherry-markdown-vscode-plugin-test': patch
 ---
 
-feat: add changesets
+chore: 更新
