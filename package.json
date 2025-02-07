@@ -14,7 +14,7 @@
   "scripts": {
     "prepare": "husky",
     "changeset": "npx @changesets/cli",
-    "version": "npx @changesets/cli version",
+    "changeset:version": "npx @changesets/cli version",
     "dev": "yarn workspace cherry-markdown dev",
     "build": "yarn workspace cherry-markdown-test build",
     "postbuild": "tsx scripts/post-build.ts",
@@ -24,8 +24,8 @@
     "example:vue": "yarn workspace  @cherry-markdown/client dev"
   },
   "devDependencies": {
-    "@changesets/changelog-github": "^0.5.0",
     "@babel/eslint-parser": "^7.12.1",
+    "@changesets/changelog-github": "^0.5.0",
     "@commitlint/config-conventional": "^19.6.0",
     "@typescript-eslint/eslint-plugin": "^4.27.0",
     "@typescript-eslint/parser": "^4.27.0",
@@ -54,5 +54,6 @@
     "node": ">=18",
     "yarn": "^1.22.22"
   },
-  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "version": "0.0.0"
 }
